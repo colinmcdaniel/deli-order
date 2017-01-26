@@ -171,17 +171,17 @@ public class myGUI extends JFrame {
 				// Add order type images to p2
 				String comboSelection=(String)orderType.getSelectedItem();
 				if(comboSelection.equals("For here")){
-					ImageIcon forHere = new ImageIcon("img4.jpg");
+					ImageIcon forHere = new ImageIcon("../images/img4.jpg");
 					JLabel picLabel4=new JLabel(forHere);
 					p2.add(picLabel4);
 				}
 				else if(comboSelection.equals("To-go")){
-					ImageIcon toGo=new ImageIcon("img5.jpg");
+					ImageIcon toGo=new ImageIcon("../images/img5.jpg");
 					JLabel picLabel5=new JLabel(toGo);
 					p2.add(picLabel5);
 				}
 				else if(comboSelection.equals("Drive-thru")){
-					ImageIcon driveThru=new ImageIcon("img6.jpg");
+					ImageIcon driveThru=new ImageIcon("../images/img6.jpg");
 					JLabel picLabel6=new JLabel(driveThru);
 					p2.add(picLabel6);
 				}
